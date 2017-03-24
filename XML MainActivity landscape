@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    >
+    <ImageButton
+        android:id="@+id/Products_category"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/Cartesiano"/>
+    <ImageButton
+        android:id="@+id/Products"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@id/Products_category"
+        android:src="@drawable/Robot3RRRplanar"/>
+    <ImageButton
+        android:id="@+id/Assemblies"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@id/Products"/>
+    <ImageButton
+        android:id="@+id/Customers"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/Products_category"/>
+
+    <ImageButton
+        android:id="@+id/Orders"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/Products_category"
+        android:layout_toRightOf="@id/Customers"
+        />
+    <ImageButton
+        android:id="@+id/Reports"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/Products_category"
+        android:layout_toRightOf="@id/Orders"
+        />
+</RelativeLayout>
