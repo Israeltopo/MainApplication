@@ -1,0 +1,29 @@
+package com.fiuady.mainapplication;
+
+import android.support.v7.app.AppCompatActivity;
+import android.os.Bundle;
+import android.widget.ImageButton;
+
+public class MainActivity extends AppCompatActivity {
+    private ImageButton Pcategory;
+    private ImageButton Products;
+    private ImageButton Assemblies;
+    private ImageButton Customers;
+    private ImageButton Orders;
+    private ImageButton Reports;
+
+    @Override
+    protected void onCreate(Bundle savedInstanceState) {
+        super.onCreate(savedInstanceState);
+        setContentView(R.layout.activity_main);
+
+        Pcategory =(ImageButton)findViewById(R.id.Products_category);
+        Products =(ImageButton)findViewById(R.id.Products);
+        Assemblies =(ImageButton)findViewById(R.id.Assemblies);
+        Customers =(ImageButton)findViewById(R.id.Customers);
+        Orders =(ImageButton)findViewById(R.id.Orders);
+        Reports =(ImageButton)findViewById(R.id.Reports);
+
+
+    }
+}
